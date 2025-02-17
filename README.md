@@ -1,6 +1,6 @@
 # Generative and Explainable AI for High-Dimensional Channel Estimation
-**Nghia Thinh Nguyen and Tri Nhu Do**
-_International Conference on Communications (ICC),_  
+**Nghia Thinh Nguyen and Tri Nhu Do**  
+_International Conference on Communications (ICC)_  
 Montreal, Canada  
 2025  
 
