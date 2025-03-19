@@ -10,3 +10,5 @@ In this paper, we propose a novel adversarial training framework for high-dimens
 Furthermore, we introduce an explainable artificial intelligence mechanism to analyze how the critic differentiates the generated channels. Our results demonstrate that the proposed framework outperforms existing methods in minimizing estimation errors. Additionally, we observe that the critic primarily focuses on the high-power regions of the channel’s time-frequency representation.
 
 trinhudo changed
+
+from Vscode macmini
