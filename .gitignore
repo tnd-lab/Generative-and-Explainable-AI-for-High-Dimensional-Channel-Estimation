@@ -1,0 +1,7 @@
+__pycache__
+./__pycache__/
+../__pycache__/
+/results*
+src/data/datasets/*
+.env
+.DS_Store

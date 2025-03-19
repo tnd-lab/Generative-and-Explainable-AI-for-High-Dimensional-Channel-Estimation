@@ -1,0 +1,13 @@
+tensorflow[and-cuda]
+sionna
+torch
+torchvision
+torchtext
+matplotlib
+numpy
+pandas
+scikit-learn
+scipy
+tqdm
+gdown
+PyYAML

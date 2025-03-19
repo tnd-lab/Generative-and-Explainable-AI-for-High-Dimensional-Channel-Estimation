@@ -1,0 +1,40 @@
+
+models:
+  wgan_gp:
+    model_path: "./results/checkpoint/channel_est_wgan_gp/g_model.pt"
+  vae:
+    model_path: "./results/checkpoint/channel_est_based_vae_multi_antenna/g_model.pt"
+  vae_wgan_gp:
+    model_path: "./results/checkpoint/channel_est_wgan_gp_based_vae_multi_antenna/g_model.pt"
+  vae_wgan_gp_skewness_loss:
+    model_path: "./results/checkpoint/channel_est_wgan_gp_based_vae_skew_multi_antenna/g_model.pt"
+  vae_proposed: 
+    model_path: "./results/checkpoint/channel_est_vae_multi_antenna/g_model.pt"
+  vae_proposed_wgan_gp:
+    model_path: "./results/checkpoint/channel_est_wgan_gp_vae_multi_antenna/g_model.pt"
+  vae_proposed_wgan_gp_skewness_loss:
+    model_path: "./results/checkpoint/channel_est_wgan_gp_vae_skew_multi_antenna/g_model.pt"
+
+z_dim: 256
+batch_size: 16
+device: 'cuda'
+snr_values: [-10, -5, 0, 5, 10]
+datasets: "src/data/datasets"
+n_workers: 4
+epoches: 100
+lr: 0.002
+betas: [0.5, 0.999]
+c_lambda: 10
+critic_repeats: 3
+
+topology:
+  url: "https://drive.google.com/uc?export=download&id=1wqYhtbfYRg3oqrRowbS3VlyUwEy3RC6S"
+  num_ofdm_symbols: 8
+  fft_size: 32
+  num_tx: 1
+  number_antennas:  4
+  cyclic_prefix_length: 0
+  subcarrier_spacing: 30e3
+  carrier_frequency:  3.5e9
+  pilot_pattern: "kronecker"
+  pilot_ofdm_symbol_indices: [2, 6]
