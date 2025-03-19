@@ -9,6 +9,10 @@ In this paper, we propose a novel adversarial training framework for high-dimens
 
 Furthermore, we introduce an explainable artificial intelligence mechanism to analyze how the critic differentiates the generated channels. Our results demonstrate that the proposed framework outperforms existing methods in minimizing estimation errors. Additionally, we observe that the critic primarily focuses on the high-power regions of the channel’s time-frequency representation.
 
+### Paper
+- [Accepted version](./Nguyen_Do_ICC_2025_accepted_version.pdf)
+- Preprint ArXiv version (to be updated)
+
 ## GE-AI-HDCE
 
 ![image](./images/full_pipeline.png)
