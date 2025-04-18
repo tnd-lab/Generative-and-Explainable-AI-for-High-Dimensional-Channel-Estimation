@@ -19,7 +19,7 @@ Furthermore, we introduce an explainable artificial intelligence mechanism to an
 
 
 ### Install 
-#### Prerequistes
+#### Prerequisites
 To run the code, make sure you already install `conda` enviroment
 #### Setup
 ```
