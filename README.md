@@ -11,7 +11,7 @@ Furthermore, we introduce an explainable artificial intelligence mechanism to an
 
 ## Paper
 - [Accepted version](./Nguyen_Do_ICC_2025_accepted_version.pdf)
-- Preprint ArXiv version (to be updated)
+- [Preprint ArXiv version](https://arxiv.org/abs/2504.10775)
 
 ## GE-AI-HDCE
 
